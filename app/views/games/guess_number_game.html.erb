@@ -1,0 +1,8 @@
+<% number = 40 %>
+<% if number == @input_number.to_i %>
+  you have won
+<% elsif number > @input_number.to_i%>
+guess higher
+<% elsif number < @input_number.to_i %>
+guess lower
+  <% end %>
